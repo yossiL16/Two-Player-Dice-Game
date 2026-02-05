@@ -48,8 +48,9 @@ btnRoll.addEventListener('click', function () {
         `current--${activePlayer}`
       ).textContent = currentScore;
       count--
+      console.log(count);
+      
     } else {
-        
         count = 5
       switchPlayer();
     }
